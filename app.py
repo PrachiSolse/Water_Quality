@@ -50,11 +50,20 @@ h1 {
 
 /* Report Card */
 .report-card {
-    background:linear-gradient(145deg,#ffffff,#f1f5f9);
+    background: linear-gradient(145deg,#ffffff,#f1f5f9);
     border-radius:20px;
     padding:25px;
     box-shadow:0 12px 30px rgba(0,0,0,0.35);
     border-left:8px solid #00c6ff;
+    color:#111111 !important;   /* FIX TEXT COLOR */
+}
+
+/* FORCE ALL TEXT INSIDE CARD TO BE DARK */
+.report-card p,
+.report-card div,
+.report-card span,
+.report-card b {
+    color:#111111 !important;
 }
 
 /* Labels */
